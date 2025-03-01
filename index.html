@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Blog de Desarrollo Web</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Blog personal sobre aprendizaje de desarrollo web">
+    <meta name="keywords" content="HTML, CSS, JavaScript, diseño web">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#inicio"> Inicio</a>
+            <a href="#blog">Blog</a>
+            <a href="#artista">Artista</a>
+            <a href="#game">Videojuegos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenid@, mi nombre es Mario.</h1>
+            <h2>Sobre mí</h2>
+                <p>Apasionado de la programación, el desarrollo personal y los videojuegos. 
+                   Como persona con TDAH, he aprendido a estructurar mi aprendizaje en 
+                   bloques claros y manejables. ¡Bienvenid@ a mi espacio de crecimiento!</p>
+        </section>
+
+        <section id="blog">
+            <h2>Hoy aprendi</h2>
+            <ol>
+                <ol>
+                    <li>La etiqueta "h1" la cual es para establecer títulos.</li>
+                    <li>Si quiero escribir texto normal, puedo utilizar "p".</li>
+                    <li>También pude establecer una forma de navegar en el blog con "a href=el_lugar".</li>
+                    <li>Para agregar este formato de lista, implementé "ol" que me da un orden a la lista, seguido de "li".</li>
+                    <li>Posteriormente descubrí "article", que es un elemento independiente, aún no sé cómo aplicarlo bien.</li>
+                    <li>Usé "section" para agrupar contenido relacionado, como la sección de inicio y la sección del blog.</li>
+                    <li>Para mostrar una imagen, usé "img" con "src" para la URL de la imagen y "alt" para el texto alternativo.</li>
+                    <li>Incrusté un video de YouTube usando "iframe", que permite mostrar contenido externo en mi página.</li>
+                    <li>Creé una tabla con "table", usando "tr" para las filas, "th" para los encabezados y "td" para las celdas.</li>
+                    <li>Usé "header" para definir la cabecera de mi página, que incluye el menú de navegación.</li>
+                    <li>El menú de navegación lo creé con "nav", que contiene enlaces ("a") a diferentes secciones.</li>
+                    <li>Para el pie de página, usé "footer", donde incluí mi nombre y un enlace a GitHub..</li>
+                    <li>Usé "main" para envolver el contenido principal de la página, lo que ayuda a los motores de búsqueda a entender la estructura.</li>
+                    <li>Para hacer la página responsive, incluí "meta name=viewport" en el "head".</li>
+                </ol>
+
+            </ol>
+
+            <article>
+                <h3>Mi primer día programado un blog</h3>
+                <p>Aprendí a estructurar una página HTML usando elementos semánticos...</p>
+            </article>
+        </section>
+
+   
+        <section>
+            <h2>Horario de clase</h2>
+            <table border="1">
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>7:00 - 9:00 a.m</td>
+                </tr>
+                <tr>
+                    <td>Jueves</td>
+                    <td>9:00 - 11:00 a.m</td>
+                </tr>
+            </table>
+        </section>
+
+
+    
+        <section id="artista">
+            <h2>Mi artista favorito "Kendrick Lamar"</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Pulitzer2018-portraits-kendrick-lamar.jpg"
+            width="18%"
+                 alt="Kendrick Lamar, rapero y compositor estadounidense">
+            <p>Kendrick Lamar es un rapero, compositor y productor estadounidense, considerado uno de los artistas más influyentes del hip-hop moderno. Nació el 17 de junio de 1987 en Compton, California, 
+                una ciudad con una fuerte historia en la cultura del rap, siendo cuna de grupos como N.W.A.</p>
+            
+            <h3>Mi cancion favorita de Kendrick</h3>
+            <h3>Count me out</h3>
+            <iframe
+                    src="https://www.youtube.com/embed/OytFZIIW79Q" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </section>
+
+        <section id="game">
+            <h1>Mis Videojuegos Favoritos</h1>
+                <h2>The Witcher 3</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/Witcher_3_cover_art.jpg" alt="The Witcher 3">
+                <p>Un RPG de mundo abierto con una historia profunda y personajes memorables.</p>
+                <p>Juegas como Geralt de Rivia en una aventura épica llena de decisiones morales y combates intensos.</p>
+
+          
+                <h2>Red Dead Redemption 2</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg" alt="Red Dead Redemption 2">
+                <p>Un western de mundo abierto con una historia increíble y gráficos impresionantes.</p>
+                <p>Controlas a Arthur Morgan mientras intentas sobrevivir en el salvaje oeste con tu banda.</p>
+          
+    
+           
+                <h2>Elden Ring</h2>
+                <img src="https://i.pinimg.com/736x/56/2e/31/562e311c3db929a33e6919832120b6c7.jpg" alt="Elden Ring" width="20%">
+                <p>Un desafiante juego de rol con un mundo abierto fascinante y combates intensos.</p>
+                <p>Explora las Tierras Intermedias, derrota jefes imponentes y forja tu destino.</p>
+        </section>
+    
+    <footer>
+        <p>Mario Yael Gordillo García</p>
+        <p>
+            Sígueme en 
+            <a href="https://github.com/MaelRD" aria-label="GitHub">GitHub</a>
+        </p>
+        <p>&copy; 2025 - Todos los derechos reservados</p>
+    </footer>
+</html>
